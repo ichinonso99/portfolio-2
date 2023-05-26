@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ........PHONE SIZE.......... */
+@media only screen and (max-width: 600px) {
+    .logo {
+        background-color: white !important;
+        width: 100px;
+        position: sticky;
+        top: 0px;
+    }
+
+    .nonso {
+        display: block !important;
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .nonso #my {
+        height: 200px !important;
+        width: 200px !important;
+        display: inline-block !important;
+        padding: 12px 12px !important;
+        border-radius: 100% !important;
+        margin-top: 40px;
+    }
+
+    .nonso:hover {
+        color: blue !important;
+        font-size: 10PX !important;
+        font-style: italic !important;
+    }
+
+    .about-text {
+        text-align: center !important;
+        align-items: center !important;
+        width: 100% !important;
+        padding-left: 5PX !important;
+    }
+
+    .go {
+        display: block !important;
+    }
+    .exp {
+        height: 1020px !important;
+        margin-top: -40px;
+    }
+
+    .google {
+        width: 90%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .port {
+        display: block !important;
+        width: 400px !important;
+        /* padding: 100px !important; */
+    }
+
+    .oo {
+        margin-left: 30px !important;
+        margin-top: 30px;
+        /* width: 200px !important; */
+    }
+
+    .iframe {
+        margin-left: 5px !important;
+        width: 400px !important;
+    }
+
+    .table table {
+        margin-left: -35px !important;
+        width: 400px !important;
+        text-align: center !important;
+        /* border: 59px !important;  */
+        height: 300px !important;
+    }
+}
+
+/* ......end of media......... */
+
+.logo {
+    background-color: orange;
+    height: 80px;
+    justify-content: center;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    /* float: left; */
+}
+
+.logo ul {
+    list-style-type: none;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.logo ul a {
+    text-decoration: none;
+    float: right;
+    padding: 40px;
+    font-size: 20px;
+}
+
+/* .........my image........ */
+.nonso {
+    margin-top: -150px;
+    text-align: center;
+}
+
+.nonso #my {
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    padding: 12px 12px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.nonso img {
+    border-radius: 100%;
+    padding: 8px;
+}
+
+.nonso:hover {
+    color: orange;
+    /* font-size: 30PX; */
+    font-style: italic;
+}
+
+/* .....about..us.... */
+.about {
+    /* background-image: url(../assignment-7/images/section.jpg); */
+    background: linear-gradient(rgba(55, 120, 241, 0.5)50%, rgba(55, 120, 241, 0.5)50%), url("images/section.jpg");
+    margin-top: 50px;
+    padding: 50px;
+    padding-block: 50px;
+    /* background-color: blue; */
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about span {
+    color: green;
+}
+
+.about-text {
+    /* padding-top: -100px; */
+    /* width: 500px; */
+    text-align: center;
+    align-items: center;
+    width: 70%;
+    opacity: 0.7;
+    padding-left: 200PX;
+}
+
+/* ............experiece.......... */
+.exp {
+    background-color: slategray;
+    height: 450px;
+    margin-top: -40px;
+}
+
+#experience {
+    text-align: center;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.google {
+    box-shadow: 0px 0px 5px;
+    width: 90%;
+    border-radius: 20px;
+    display: flex;
+    background-color: #fff;
+}
+
+.google:focus {
+    background-color: orange;
+    font-size: 30px;
+}
+
+.goog {
+    box-shadow: 0px 0px 5px;
+    width: 90%;
+    border-radius: 20px;
+    display: flex;
+    margin-left: 20px;
+    background-color: #fff;
+}
+
+.google>div>img {
+    width: 60px;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.goog>div>img {
+    width: 60px;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.go {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.Download {
+    background: linear-gradient(rgba(55, 120, 241, 0.5)50%, rgba(55, 120, 241, 0.5)50%), url("images/section.jpg");
+    /* background-image: url(../assignment-7/images/section.jpg); */
+    padding: 5em;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Download a {
+    text-decoration: none;
+    background-color: orange;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 13px;
+    position: relative;
+}
+
+.Download a::after {
+    content: "";
+    width: 0%;
+    height: 15%;
+    background: green;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.Download a:hover::after {
+    width: 100%;
+}
+
+#portfolio h1 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+#portfolio h1:hover {
+    color: orange;
+    font-size: 50PX;
+    font-style: italic;
+}
+
+#portfolio img {
+    width: 441px;
+    margin-left: 4px;
+}
+
+/* ...............form........ */
+.pp h1 {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.pp h1:hover {
+    color: blue;
+    font-size: 50PX;
+    font-style: italic;
+}
+
+.iframe {
+    margin-left: 5px;
+}
+
+.oo {
+    /* box-shadow: 0px 0px 5px; */
+    width: 600px;
+    margin-left: 120px;
+}
+
+.port {
+    display: flex;
+    margin-top: 50px;
+}
+
+.po input {
+    width: 550px;
+    height: 40px;
+    border-color: green;
+}
+
+.choose select {
+    width: 550px;
+    height: 40px;
+    border-color: green;
+}
+
+#p textarea {
+    width: 550px;
+    height: 300px;
+    margin-bottom: 30px;
+    border-color: green;
+}
+
+#p button {
+    background-color: orange;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 13px;
+    border: none;
+    font-size: 20px;
+    position: relative;
+}
+
+#p button::after {
+    content: "";
+    width: 0%;
+    height: 15%;
+    background: blue;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+#p button:hover::after {
+    width: 100%;
+}
+
+#p input {
+    margin: 5px;
+}
+
+/* ................table................ */
+
+.table {
+    background: linear-gradient(rgba(55, 120, 241, 0.5)50%, rgba(55, 120, 241, 0.5)50%), url("images/section.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5em;
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.table h1 {
+    color: #fff;
+}
+
+.table table {
+    height: 400px;
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: 85px;
+    border-color: #fff;
+}
